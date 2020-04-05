@@ -19,8 +19,9 @@ namespace MVCForm.Controllers
         }
 
         public IActionResult Index()
+
         {
-            return View();
+            return Redirect("/Movies");
         }
 
         public IActionResult Privacy()
